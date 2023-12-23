@@ -134,9 +134,8 @@ border-radius: 4px;
 /* Mobile Devices */
 @media screen and (max-width: 480px) {
     .product-card {
-        flex: 1 1 calc(100% - 24px); /* Full width for one card per row */
-        max-width: calc(100% - 24px);
-        margin: 12px 0;
+    
+        flex: 1 1  21rem;
     }
     
     .tab-button {
