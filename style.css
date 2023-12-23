@@ -118,33 +118,30 @@ border-radius: 4px;
 }
 
 
-/* Tablet Devices */
+
 @media screen and (max-width: 768px) {
-    .product-card {
-    
-        flex:1rem;
-    }
+   
     .product-container{
         margin: 0 auto;
     }
     
     
     .tab-button {
-        padding: 10px 40px; /* Adjust button padding */
+        padding: 10px 40px;
     }
 }
 
-/* Mobile Devices */
+
 @media screen and (max-width: 480px) {
   
     
     .tab-button {
-        padding: 10px 20px; /* Further adjust button padding */
-        font-size: 12px; /* Adjust font size */
+        padding: 10px 20px;
+        font-size: 12px; 
     }
     
     .p-img {
-        height: 200px; /* Adjust image height */
+        height: 200px; 
     }
 }
 
