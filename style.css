@@ -120,31 +120,29 @@ border-radius: 4px;
 
 @media screen and (max-width: 768px) {
     .product-card {
-      flex: 1 1 50%; /* Two cards per row */
-      max-width: calc(50% - 24px);
+        flex: 1 1 calc(50% - 24px); /* Two cards per row */
+        max-width: calc(50% - 24px);
+        margin: 12px; /* Adjust margin */
     }
     
     .tab-button {
-      padding: 10px 40px; /* Adjust button padding */
+        padding: 10px 40px; /* Adjust button padding */
     }
-  }
-  
-  /* Media queries for mobile devices */
-  @media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 480px) {
     .product-card {
-      flex: 1 1 100%; /* Full width for one card per row */
-      max-width: calc(100% - 24px);
-      margin: 12px 0;
+        flex: 1 1 calc(100% - 24px); /* Full width for one card per row */
+        max-width: calc(100% - 24px);
+        margin: 12px 0; /* Adjust margin */
     }
     
     .tab-button {
-      /* padding: 10px 20px; Further adjust button padding */
-      font-size: 12px; /* Adjust font size */
+        padding: 10px 20px; /* Further adjust button padding */
+        font-size: 12px; /* Adjust font size */
     }
     
     .p-img {
-      height: 200px; /* Adjust image height */
+        height: 200px; /* Adjust image height */
     }
-  }
-
-
+}
