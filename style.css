@@ -122,7 +122,7 @@ border-radius: 4px;
 @media screen and (max-width: 768px) {
     .product-card {
     
-        flex: 1 1  1rem;
+        flex: 1 1rem;
     }
     .product-container{
         margin: 0 auto;
