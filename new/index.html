@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Catalog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">SELECT YOUR CHOICE </h1>
+    <div class="tabs">
+        <button class="tab-button active" onclick="filterProducts('Men')">Men</button>
+        <button class="tab-button" onclick="filterProducts('Women')">Women</button>
+        <button class="tab-button" onclick="filterProducts('Kids')">Kids</button>
+    </div>
+
+    <div class="product-container" id="productContainer">
+        <!-- Product cards will be dynamically added here -->
+        <!-- <div class="detailsCard">
+            <img src="https://source.unsplash.com/600x800/?boy" alt="">
+            <div class="productDetails flex">
+                <h2>mens kurta</h2>
+                <p>manyvar</p>
+            </div>
+            <div class="price flex">
+                <p>119</p>
+                <p>1200</p>
+                <p>%56</p>
+            </div>
+            <button>btn</button>
+        </div> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
