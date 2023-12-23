@@ -9,37 +9,9 @@ async function fetchData() {
     }
 }
 
-// Function to create product cards based on fetched data
-// async function createProductCards() {
-//     const productContainer = document.getElementById('productContainer');
-//     productContainer.innerHTML = ''; // Clear previous products
 
-//     const data = await fetchData();
-
-//     // data.categories.forEach(cat => {
-//     //     const categoryProducts = cat.category_products;
-//     //     categoryProducts.forEach(product => {
-//     //         const discount = Math.floor(((product.compare_at_price - product.price) / product.compare_at_price) * 100);
-
-//     //         const productCard = document.createElement('div');
-//     //         productCard.classList.add('product-card');
-//     //         productCard.innerHTML = `
-//     //             <img src="${product.image}" alt="${product.title}">
-//     //             <h3>${product.title}</h3>
-//     //             <p>Vendor: ${product.vendor}</p>
-//     //             <p>Price: $${product.price}</p>
-//     //             <p>Compare at Price: $${product.compare_at_price}</p>
-//     //             <p>${discount}% off</p>
-//     //             <button class="add-to-cart">Add to Cart</button>
-//     //         `;
-//     //         productContainer.appendChild(productCard);
-//     //     });
-//     // });
-// }
 
 // Function to filter products based on category
-
-
 
 function filterProducts(category) {
     const productContainer = document.getElementById('productContainer');
@@ -91,5 +63,5 @@ function filterProducts(category) {
     });
 }
 
-
+// Initial load: Show products for 'Men' category
 filterProducts("Men")
