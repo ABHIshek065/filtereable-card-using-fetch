@@ -6,13 +6,13 @@ This project is a dynamic web application that fetches data from an external API
 
 The core functionalities of the project include:
 
-# Fetching Data: The application asynchronously fetches product data from an API using JavaScript's Fetch API.
+### Fetching Data: The application asynchronously fetches product data from an API using JavaScript's Fetch API.
 
-# Product Display: Dynamically generates product cards based on the fetched data, presenting product information such as title, vendor, price, compare at price, and discount percentage.
+### Product Display: Dynamically generates product cards based on the fetched data, presenting product information such as title, vendor, price, compare at price, and discount percentage.
 
 Tab Switching: Users can switch between categories ('Men', 'Women', 'Kids') using tab buttons, triggering the display of relevant products.
 
-## Code Structure
+### Code Structure
 
 
 fetchData: A function that retrieves product data from the specified API endpoint.
@@ -20,14 +20,14 @@ createProductCards: Generates product cards based on the fetched data for the se
 handleTabClick: Manages tab switching functionality and updates the displayed products accordingly.
 
 
-# Deployment
+## Deployment
 
-The project has been deployed using Vercel and is accessible at  Deployed URL.
++ The project has been deployed using Vercel and is accessible at  Deployed URL.
  URL : ```https://filtereable-card-using-fetch.vercel.app/```
 
-## How to Use
+### How to Use
 
-Access the deployed project via the provided URL.
-Upon loading, products from the 'Men' category are displayed by default.
-Click on the category tabs ('Men', 'Women', 'Kids') to view products from different categories.
-Each product card showcases product details and includes an "Add to Cart" button (for visual representation, not functional in this version).
+1. Access the deployed project via the provided URL.
+2. Upon loading, products from the 'Men' category are displayed by default.
+3. Click on the category tabs ('Men', 'Women', 'Kids') to view products from different categories.
+4. Each product card showcases product details and includes an "Add to Cart" button (for visual representation, not functional in this version).
